@@ -24,12 +24,13 @@ if has("nvim")
   Plug 'dylanaraps/wal' 
   Plug 'windwp/nvim-autopairs'
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-  Plug 'preservim/nerdtree'
   Plug 'prettier/vim-prettier', {
         \ 'do': 'yarn install',
         \ 'for': ['javascript', 'typescript', 'typescriptreact', 'css', 'less', 'html', 'jsx', 'tsx',
-        \ 'json', 'svelte']} 
+        \ 'json', 'svelte','go','dart']} 
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'akinsho/toggleterm.nvim'
+  Plug 'github/copilot.vim'
 endif
 
 

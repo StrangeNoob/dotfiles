@@ -1,7 +1,7 @@
 if !exists('g:loaded_telescope') | finish | endif
 
-nnoremap <silent> <leader>e <cmd>Telescope find_files<cr>
-nnoremap <silent> <leader>f <cmd>Telescope live_grep<cr>
+nnoremap <silent> <leader>f <cmd>Telescope find_files<cr>
+nnoremap <silent> <leader>lf <cmd>Telescope live_grep<cr>
 nnoremap <silent> \\ <cmd>Telescope buffers<cr>
 nnoremap <silent> h; <cmd>Telescope help_tags<cr>
 
